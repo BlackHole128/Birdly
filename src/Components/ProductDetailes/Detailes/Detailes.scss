@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+$scintific-font : 'Roboto', sans-serif;;
+$border-bottom : 1px solid black;
+
+.name-Container
+{
+    border-bottom: $border-bottom;
+}
+
+
+.sci-name
+{
+    font-family: $scintific-font;
+}
+
+$unlikeColor : #393646;
+$likeCOlor : #11009E;
+$love: #FC2947

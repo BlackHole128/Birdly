@@ -1,0 +1,45 @@
+$mygridDisplay : grid;
+$my-template-column : repeat( 1 , minmax(0,1fr));
+
+
+
+
+.container
+{
+    padding:  4rem;
+    margin-left: auto;
+    margin-right : auto;
+    margin-top: 5rem;
+    margin-bottom: 2.5rem;
+}
+
+
+.cartContainer
+{ 
+    display: $mygridDisplay;
+    grid-template-columns: $my-template-column;
+    gap: 4rem;
+}
+
+
+.productsContainer
+{
+    display: $mygridDisplay;
+    grid-template-columns: $my-template-column;
+   
+}
+
+.productsContainer img
+{
+    width : 75%;
+}
+
+.cartItem
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
